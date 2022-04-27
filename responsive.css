@@ -1,0 +1,67 @@
+/*----------Responsive Design Start-------------*/
+
+@media screen and (max-width:750px) {
+    nav {
+        display: block;
+        padding-top: 45px;
+        padding-left: 8%;
+    }
+    .logo {
+        text-align: center;
+        position: relative;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li {
+        list-style: none;
+        text-align: center;
+        margin: 20px;
+        font-size: 17px;
+        background: #262626c2;
+        border-radius: 10px;
+    }
+    .content {
+        position: absolute;
+        top: 94%;
+        left: 1%;
+        transform: translateY(-50%);
+    }
+    h1 {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+    .img_background {
+        height: 538px;
+        max-width: 688px;
+        margin-left: -41%;
+        opacity: 0.6;
+    }
+    .parent {
+        height: 47em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .child {
+        margin: 5px;
+        text-align: center;
+    }
+    .contact-me {
+        text-align: center;
+    }
+    .about-text {
+        width: 400px;
+        position: absolute;
+        text-align: center;
+    }
+    .about img {
+        opacity: 0.6;
+    }
+}
